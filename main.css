@@ -64,3 +64,20 @@ span{
 #second{
     color: rgb(0, 33, 165);
 }
+button{
+    box-shadow: 2px 2px blue;
+    height: 30px;
+    border-radius: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(rgb(236, 25, 236),rgb(99, 21, 255)) ;
+}
+.audio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

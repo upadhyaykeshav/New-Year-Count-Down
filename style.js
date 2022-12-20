@@ -26,3 +26,13 @@ function formatTimes(time){
 }
 countDown();
 setInterval(countDown,1000);
+
+// -------------Adding Audio file----------------------
+
+let x=document.querySelector('#newYear')
+function playAudio(){
+    x.play();
+}
+function pauseAudio(){
+    x.pause();
+}
